@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\查找">
+      <UniqueIdentifier>{63d0b3b1-3e59-4882-a581-ed3a685914fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\排序">
+      <UniqueIdentifier>{e070bc85-8dac-4c73-b7a5-f7c30281bc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\树">
+      <UniqueIdentifier>{c98f58aa-5575-4211-8c7e-50d3a49158c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图">
+      <UniqueIdentifier>{3f5d03a1-79e9-4dc1-b35c-d9c23ffff02e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="折半查找.c">
+      <Filter>源文件\查找</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表查找.c">
+      <Filter>源文件\查找</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表创建.cpp">
+      <Filter>源文件\查找</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序查找.c">
+      <Filter>源文件\查找</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉排序树_创建.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉排序树_递归查找.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉排序树_非递归查找.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉排序树_节点删除.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="极端排序.cpp">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="快速排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="希尔排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="折半插入排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="直接插入排序.c">
+      <Filter>源文件\排序</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树与二叉树的遍历.c">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="分治法求叶子节点数.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="横向打印二叉树.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="后序求二叉树高度.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="先序遍历求二叉树高度.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="中序线索二叉树建立与寻找前驱结点.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
+    <ClCompile Include="判断无向图两个顶点间是否有路径.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="AOV网_拓扑排序.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_邻接矩阵.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS_邻接表.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphy.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphy-邻接表创建 .c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphy-邻接矩阵创建 .c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="IsTopoOrder_邻接表.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal_最小生成树.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="克鲁斯卡尔算法创建最小生成树.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="模板_Graphy-邻接表创建.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="模板_Graphy-邻接矩阵创建.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="1_6_2.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="1_7_1.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="1_7_2.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="2-6-1求链表的倒数第m个元素.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="6-2 共享后缀的链表.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="7-3 获奖的运气 .c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="7-3 获奖的运气 2.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="7-6 打印沙漏 .C">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="max_min.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="n阶矩阵转置.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="包装机.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="代码模板.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="动态变长数组.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="动态数组.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="队列模板.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="合并AB表到C且改变递增方向.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="后缀表达式.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="交叉链表.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="括号匹配算法.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="链表模板.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="链表奇数在前偶数在后.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="链表原地逆置.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="排序算法.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="三角矩阵判断.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="身份信息快速查找.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="数位分离.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="双端队列.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="顺序表删除自i个元素开始的k个元素.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="稀疏矩阵列序递增转置法.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="稀疏矩阵一次定位快速转置法.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="线性表数组区间删除.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="银行排队问题之单队列多窗口服务源.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="有序表删除介于mink和maxk之间的元素.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="有序链表插入值.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="在一个数组中实现两个堆栈.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="栈容器.c">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
